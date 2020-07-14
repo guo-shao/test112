@@ -25,7 +25,20 @@ git reset --hard a97ed67
 git reflog  每次对版本切换的记录
 
 
-
+#####分支#####
+默认是主分支master
+创建dev分支：
+	git branch dev
+	在刚创建的dev分支里的东西和master分支里的东西是一样的
+切换分支：
+	git checkout dev
+	切换到指定的dev分支
+	git branch
+	查看当前的分支
+合并分支：
+	先切换到主分支 git checkout master
+	git merge dev
+	当前分支与dev分支合并(有星号标记的是当前分支)
 
 
 
